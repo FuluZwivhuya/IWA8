@@ -13,12 +13,14 @@ const sarahPostal = '0310'
 
 // Only change below this line
 
+
+const address = {};
 const leo = {
 	name : leoName,
 	balance : leoBalance,
 	accessId : "47afb389-8014-4d0b-aff3-e40203d2107f",
 	age : 24,
-    address : {
+    address:{
     number : leoNumber,
 	street : leoStreet,
 	postalcode : leoPostal,
@@ -33,8 +35,9 @@ const sarah ={
 	address : {
 		number : sarahNumber,
 		street : sarahStreet,
-		postalCode : sarahPostal,}
+		postalCode : sarahPostal,
+	    age: 62,}
 	}
-
-console.log(leo, leo.address.postalcode)
-console.log(sarah, sarah.address.postalCode)
+console.log (leo.name,leo.address.postalcode);
+	
+console.log(sarah.name,sarah.address.postalCode)
