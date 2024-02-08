@@ -41,7 +41,8 @@ const sarah = {
 };
 console.log(leo.name,Object.keys(leo), leo.address.postalcode);
 console.log(leo.name,Object.values(leo), leo.address.postalcode);
+console.log(leo,leo.address.postalcode)
 
 console.log(sarah.name,Object.keys(sarah), sarah.address.postalCode);
 console.log(sarah.name, Object.values(sarah), sarah.address.postalCode);
-
+console.log(sarah,sarah.address.postalCode)
