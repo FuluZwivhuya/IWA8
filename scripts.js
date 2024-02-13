@@ -26,7 +26,7 @@ const leo = {
 };
 
 const sarahName1 = sarahName.trim();
-const sarahName2 = sarahName1 + '' + sarahSurname;
+const sarahName2 = sarahName1 +" " + sarahSurname;
 const sarah = {
   name: sarahName2,
   age: 62,
